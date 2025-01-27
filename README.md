@@ -1,5 +1,7 @@
-HOW TO REPRODUCE WITH MSVC ON WINDOWS:
-======================================
+How to reproduce `missing source filename` error
+================================================
+
+This issue is reproducible on Windows with MSVC (Linux with gcc works correctly).
 
 1. run `scons` so that the default target gets built succesfully
 1. run `scons --interactive` and then:
